@@ -4,8 +4,8 @@ CREATE TABLE `students` (
   `ID` int(11) NOT NULL,
   `LAST_NAME` varchar(50) NOT NULL,
   `FIRST_NAME` varchar(50) NOT NULL,
-  `MATH` int(11) NOT NULL,
-  `PHYSIC` int(50) NOT NULL,
+  `MATH` INT(11) NOT NULL,
+  `PHYSIC` INT(50) NOT NULL,
   `SCIENCE` INT(50) NOT NULL,
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
