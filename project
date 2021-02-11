@@ -71,7 +71,7 @@ public class StudentDao extends Dao implements DaoList<Student> {
 
     }
 
-    public static PersonDao getInstance() {
+    public static StudentDao getInstance() {
 
         if (studentDao == null) {
             studentDao = new StudentDao();
